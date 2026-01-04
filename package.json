@@ -1,5 +1,5 @@
 {
-  "name": "number-to-words",
+  "name": "n2w",
   "version": "1.0.0",
   "description": "Convert numbers to words in multiple languages (English, Khmer, etc.)",
   "main": "dist/index.js",

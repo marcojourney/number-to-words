@@ -1,2 +1,2 @@
-export * from "./km";
-export * from "./en";
+export * from "./km-KH";
+export * from "./en-SG";

@@ -26,19 +26,20 @@ console.log(toWords(123, 'km')); // "មួយរយម្ភៃបី"
 
 ## Example with Countries (Asia)
 
-| Country          | Language Code | Example: `123`               |
-| ---------------- | ------------- | ---------------------------- |
-| Cambodia 🇰🇭      | `km`          | មួយរយម្ភៃបី                      |
-| Vietnam 🇻🇳       | `vi`          | (not supported yet)          |
-| Laos 🇱🇦          | `lo`          | (not supported yet)          |
-| Myanmar 🇲🇲       | `my`          | (not supported yet)          |
-| Malaysia 🇲🇾      | `ms`          | (not supported yet)          |
-| Singapore 🇸🇬     | `en`          | One Hundred and Twenty Three |
-| Indonesia 🇮🇩     | `id`          | (not supported yet)          |
-| Philippines 🇵🇭   | `en`          | One Hundred and Twenty Three |
-| Japan 🇯🇵         | `ja`          | (not supported yet)          |
-| South Korea 🇰🇷   | `ko`          | (not supported yet)          |
-| Thailand 🇹🇭      | `th`          | (not supported yet)          |
+| Country          | Language Code | Example: `181035`                                   |
+| ---------------- | ------------- | --------------------------------------------------- |
+| Cambodia 🇰🇭      | `km-KH`       | មួយរយប៉ែតសិបមួយពាន់សូន្យសាមសិបប្រាំ                          |
+| Vietnam 🇻🇳       | `vi-VN`       | (not supported yet)                                 |
+| Laos 🇱🇦          | `lo-LA`       | (not supported yet)                                 |
+| Myanmar 🇲🇲       | `my-MM`       | (not supported yet)                                 |
+| Malaysia 🇲🇾      | `ms-MY`       | (not supported yet)                                 |
+| Singapore 🇸🇬     | `en-SG`       | One Hundred and Eighty-One Thousand and Thirty-Five |
+| Indonesia 🇮🇩     | `id-ID`       | (not supported yet)                                 |
+| Philippines 🇵🇭   | `en-PH`       | One Hundred and Eighty-One Thousand and Thirty-Five |
+| Japan 🇯🇵         | `ja-JP`       | (not supported yet)                                 |
+| South Korea 🇰🇷   | `ko-KR`       | (not supported yet)                                 |
+| Thailand 🇹🇭      | `th-TH`       | (not supported yet)                                 |
+
 
 ---
 

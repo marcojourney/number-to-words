@@ -1,6 +1,6 @@
 # number-to-words
 
-Convert numbers to words easily. Currently supports **English (`en`)** and **Khmer (Cambodia, `km`)**.
+Convert numbers to words easily. Currently supports **English (`en-SG`)** and **Khmer (Cambodia, `km-KH`)**.
 
 > **Note:** Support for additional languages will be added in future releases.
 
@@ -16,10 +16,10 @@ npm install number-to-words
 import { toWords } from 'number-to-words';
 
 // English
-console.log(toWords(123, 'en')); // "One Hundred and Twenty Three"
+console.log(toWords(181035, 'en-SG')); // "One Hundred and Eighty-One Thousand and Thirty-Five"
 
 // Khmer
-console.log(toWords(123, 'km')); // "មួយរយម្ភៃបី"
+console.log(toWords(181035, 'km-KH')); // "មួយរយប៉ែតសិបមួយពាន់សូន្យសាមសិបប្រាំ"
 ```
 
 ---
@@ -49,10 +49,10 @@ console.log(toWords(123, 'km')); // "មួយរយម្ភៃបី"
 import { toWords } from 'number-to-words';
 
 const populationCambodia = 181035; // Area in km²
-console.log(`Area of Cambodia: ${toWords(populationCambodia, 'en')} square kilometers`);
+console.log(`Area of Cambodia: ${toWords(populationCambodia, 'en-SG')} square kilometers`);
 // "Area of Cambodia: One Hundred Eighty-One Thousand Thirty-Five square kilometers"
 
-console.log(`ទំហំប្រទេសកម្ពុជា: ${toWords(populationCambodia, 'km')} គីឡូម៉ែត្រការេ`);
+console.log(`ផ្ទៃដីប្រទេសកម្ពុជា: ${toWords(populationCambodia, 'km-KH')} គីឡូម៉ែត្រការេ`);
 // "ផ្ទៃដីប្រទេសកម្ពុជា: មួយរយប៉ែតសិបមួយពាន់សូន្យសាមសិបប្រាំ គីឡូម៉ែត្រការេ"
 ```
 
@@ -65,9 +65,9 @@ toWords(number: number, lang: string): string
 ```
 
 * `number` → The number you want to convert
-* `lang` → Language code (`'en'` or `'km'`)
+* `lang` → Language code (`'en-SG'` or `'km-KH'`)
 
-> Currently, only **English (`en`)** and **Khmer (`km`)** are supported.
+> Currently, only **English (`en-SG`)** and **Khmer (`km`)** are supported.
 
 ---
 

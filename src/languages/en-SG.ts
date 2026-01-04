@@ -1,4 +1,3 @@
-// src/languages/en.ts
 export function convertNumberToEnglishWords(number: number | string): string {
   const hyphen = " ";
   const conjunction = " ";

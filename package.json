@@ -1,7 +1,7 @@
 {
-  "name": "n2w",
-  "version": "1.0.0",
-  "description": "Convert numbers to words in multiple languages (English, Khmer, etc.)",
+  "name": "@marcobytes/num-to-text",
+  "version": "1.0.1",
+  "description": "Convert numbers to words in multiple languages (Khmer, English, etc.)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -10,11 +10,20 @@
     "test:watch": "jest --watch",
     "prepare": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcojourney/number-to-words.git"
+  },
+  "homepage": "https://github.com/marcojourney/number-to-words",
+  "bugs": {
+    "url": "https://github.com/marcojourney/number-to-words/issues"
+  },
   "keywords": [
     "numbers",
     "words",
     "english",
     "khmer",
+    "cambodia",
     "convert",
     "multi-language"
   ],

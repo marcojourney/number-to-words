@@ -1,4 +1,4 @@
-# number-to-words
+# Convert Number to Words
 
 Convert numbers to words easily. Currently supports **English (`en-SG`)** and **Khmer (Cambodia, `km-KH`)**.
 
@@ -7,13 +7,13 @@ Convert numbers to words easily. Currently supports **English (`en-SG`)** and **
 ## Installation
 
 ```bash
-npm install number-to-words
+npm install @marcobytes/num-to-text
 ```
 
 ## Usage
 
 ```ts
-import { toWords } from 'number-to-words';
+import { toWords } from '@marcobytes/num-to-text';
 
 // English
 console.log(toWords(181035, 'en-SG')); // "One Hundred and Eighty-One Thousand and Thirty-Five"
@@ -46,7 +46,7 @@ console.log(toWords(181035, 'km-KH')); // "មួយរយប៉ែតសិប�
 ## Example with Real Data
 
 ```ts
-import { toWords } from 'number-to-words';
+import { toWords } from '@marcobytes/num-to-text';
 
 const populationCambodia = 181035; // Area in km²
 console.log(`Area of Cambodia: ${toWords(populationCambodia, 'en-SG')} square kilometers`);
